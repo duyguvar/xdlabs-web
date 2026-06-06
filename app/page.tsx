@@ -16,15 +16,28 @@ export default function Home() {
       </nav>
 
       {/* Hero */}
-      <section className="flex flex-col justify-center px-8 pt-24 pb-32 md:pt-36 md:pb-48 max-w-6xl mx-auto w-full">
+      <section className="relative flex flex-col justify-center px-8 pt-24 pb-32 md:pt-36 md:pb-48 max-w-6xl mx-auto w-full overflow-hidden">
+        {/* Subtle depth — radial glow top-left */}
+        <div
+          className="pointer-events-none absolute -top-40 -left-40 w-[600px] h-[600px] rounded-full"
+          style={{
+            background: "radial-gradient(circle, rgba(255,255,255,0.025) 0%, transparent 70%)",
+          }}
+        />
+        {/* Fine grain line — right side */}
+        <div
+          className="pointer-events-none absolute right-0 top-0 bottom-0 w-px"
+          style={{ background: "linear-gradient(to bottom, transparent, rgba(255,255,255,0.06) 40%, transparent)" }}
+        />
+
         <p className="text-xs font-semibold tracking-[0.25em] uppercase text-[rgba(255,255,255,0.25)] mb-12">
           Abu Dhabi · 2026
         </p>
         <h1 className="font-serif italic text-[clamp(52px,10vw,100px)] leading-[1.05] text-white tracking-tight mb-10 max-w-3xl">
-          We shall challenge ordinary.
+          We challenge<br />ordinary.
         </h1>
         <p className="text-[clamp(15px,2vw,18px)] text-[rgba(255,255,255,0.35)] max-w-md leading-relaxed">
-          XD Labs is a product studio from Abu Dhabi. We build software that disrupts how people live, connect, and create value.
+          XD Labs is a product studio from Abu Dhabi. We build software that reshapes how people live, connect, and create value.
         </p>
       </section>
 
