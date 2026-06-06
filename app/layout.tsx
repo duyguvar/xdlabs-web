@@ -15,10 +15,10 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "XD Labs — Building products that matter",
+  title: "XD Labs — We shall challenge ordinary.",
   description: "A product studio from Abu Dhabi building the next generation of social and utility apps.",
   openGraph: {
-    title: "XD Labs",
+    title: "XD Labs — We shall challenge ordinary.",
     description: "A product studio from Abu Dhabi building the next generation of social and utility apps.",
     url: "https://itsjustxdlabs.com",
     siteName: "XD Labs",
@@ -32,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${dmSerif.variable} ${dmSans.variable} h-full`}>
-      <body className="min-h-full flex flex-col bg-[#0D0B0A] text-[#FAF8F5] antialiased">
+      <body className="min-h-full flex flex-col bg-[#080808] text-[#F5F5F5] antialiased">
         {children}
       </body>
     </html>
