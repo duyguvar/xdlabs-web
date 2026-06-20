@@ -5,7 +5,7 @@ export default function Home() {
       {/* Nav */}
       <nav className="flex items-center justify-between px-8 py-7 max-w-6xl mx-auto w-full">
         <div className="flex items-center gap-3">
-          <img src="/xdlabs-logo.png" alt="XDLabs Future" style={{height: '32px', width: 'auto', mixBlendMode: 'screen'}} />
+          <img src="/xdlabs-logo.png" alt="XDLabs Future" style={{height: '56px', width: 'auto', mixBlendMode: 'screen'}} />
         </div>
         <a
           href="mailto:hello@itsjustxdlabs.com"
