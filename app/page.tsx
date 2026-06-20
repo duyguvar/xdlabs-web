@@ -4,7 +4,7 @@ export default function Home() {
 
       {/* Nav */}
       <nav className="flex items-center justify-between px-8 py-7 max-w-6xl mx-auto w-full">
-        <img src="/xd-logo.png" alt="XDLabs Future" style={{height: '40px', width: 'auto'}} />
+        <img src="/xd-icon.png" alt="XDLabs Future" style={{height: '40px', width: 'auto'}} />
         <a
           href="mailto:hello@itsjustxdlabs.com"
           className="text-sm text-[rgba(255,255,255,0.55)] hover:text-[rgba(255,255,255,0.85)] transition-colors"
@@ -151,7 +151,7 @@ export default function Home() {
         <div className="h-px bg-[rgba(255,255,255,0.08)]" />
       </div>
       <footer className="max-w-6xl mx-auto w-full px-8 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <img src="/xd-logo.png" alt="XDLabs Future" style={{height: '28px', width: 'auto', opacity: 0.5}} />
+        <img src="/xd-icon.png" alt="XDLabs Future" style={{height: '28px', width: 'auto', opacity: 0.5}} />
         <div className="flex items-center gap-8">
           <a href="mailto:hello@itsjustxdlabs.com" className="text-xs text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,0.8)] transition-colors">
             hello@itsjustxdlabs.com
