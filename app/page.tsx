@@ -7,7 +7,7 @@ export default function Home() {
         <img src="/xd-logo.png" alt="XDLabs Future" style={{height: '40px', width: 'auto'}} />
         <a
           href="mailto:hello@itsjustxdlabs.com"
-          className="text-sm text-[rgba(255,255,255,0.3)] hover:text-[rgba(255,255,255,0.7)] transition-colors"
+          className="text-sm text-[rgba(255,255,255,0.55)] hover:text-[rgba(255,255,255,0.85)] transition-colors"
         >
           hello@itsjustxdlabs.com
         </a>
@@ -153,10 +153,10 @@ export default function Home() {
       <footer className="max-w-6xl mx-auto w-full px-8 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
         <img src="/xd-logo.png" alt="XDLabs Future" style={{height: '28px', width: 'auto', opacity: 0.5}} />
         <div className="flex items-center gap-8">
-          <a href="mailto:hello@itsjustxdlabs.com" className="text-xs text-[rgba(255,255,255,0.2)] hover:text-[rgba(255,255,255,0.5)] transition-colors">
+          <a href="mailto:hello@itsjustxdlabs.com" className="text-xs text-[rgba(255,255,255,0.5)] hover:text-[rgba(255,255,255,0.8)] transition-colors">
             hello@itsjustxdlabs.com
           </a>
-          <span className="text-xs text-[rgba(255,255,255,0.15)]">© 2026 XDLabs Future FZCO · Dubai, UAE</span>
+          <span className="text-xs text-[rgba(255,255,255,0.5)]">© 2026 XDLabs Future FZCO · Dubai, UAE</span>
         </div>
       </footer>
 
