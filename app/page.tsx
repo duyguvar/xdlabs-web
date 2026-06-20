@@ -4,9 +4,9 @@ export default function Home() {
 
       {/* Nav */}
       <nav className="flex items-center justify-between px-8 py-7 max-w-6xl mx-auto w-full">
-        <span className="font-serif italic text-xl text-white tracking-tight">
-          XD Labs
-        </span>
+        <div className="flex items-center gap-3">
+          <img src="/xdlabs-logo.png" alt="XDLabs Future" style={{height: '32px', width: 'auto', mixBlendMode: 'screen'}} />
+        </div>
         <a
           href="mailto:hello@itsjustxdlabs.com"
           className="text-sm text-[rgba(255,255,255,0.3)] hover:text-[rgba(255,255,255,0.7)] transition-colors"
@@ -31,13 +31,13 @@ export default function Home() {
         />
 
         <p className="text-xs font-semibold tracking-[0.25em] uppercase text-[rgba(255,255,255,0.25)] mb-12">
-          Abu Dhabi · 2026
+          Dubai · 2026
         </p>
         <h1 className="font-serif italic text-[clamp(52px,10vw,100px)] leading-[1.05] text-white tracking-tight mb-10 max-w-3xl">
           We challenge<br />ordinary.
         </h1>
         <p className="text-[clamp(15px,2vw,18px)] text-[rgba(255,255,255,0.35)] max-w-md leading-relaxed">
-          XD Labs is a product studio from Abu Dhabi. We build software that reshapes how people live, connect, and create value.
+          XDLabs Future is a product studio from Dubai. We build software that reshapes how people live, connect, and create value.
         </p>
       </section>
 
@@ -153,13 +153,12 @@ export default function Home() {
         <div className="h-px bg-[rgba(255,255,255,0.08)]" />
       </div>
       <footer className="max-w-6xl mx-auto w-full px-8 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <span className="font-serif italic text-[rgba(255,255,255,0.3)]">XD Labs</span>
+        <img src="/xdlabs-logo.png" alt="XDLabs Future" style={{height: '24px', width: 'auto', mixBlendMode: 'screen', opacity: 0.5}} />
         <div className="flex items-center gap-8">
           <a href="mailto:hello@itsjustxdlabs.com" className="text-xs text-[rgba(255,255,255,0.2)] hover:text-[rgba(255,255,255,0.5)] transition-colors">
             hello@itsjustxdlabs.com
           </a>
-          <span className="text-xs text-[rgba(255,255,255,0.15)]">Abu Dhabi, UAE</span>
-          <span className="text-xs text-[rgba(255,255,255,0.15)]">© 2026</span>
+          <span className="text-xs text-[rgba(255,255,255,0.15)]">© 2026 XDLabs Future FZCO · Dubai, UAE</span>
         </div>
       </footer>
 
