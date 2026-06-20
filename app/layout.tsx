@@ -15,13 +15,13 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "XD Labs — We shall challenge ordinary.",
-  description: "A product studio from Abu Dhabi building the next generation of social and utility apps.",
+  title: "XDLabs Future — We challenge ordinary.",
+  description: "A product studio from Dubai building the next generation of social and utility apps.",
   openGraph: {
-    title: "XD Labs — We shall challenge ordinary.",
-    description: "A product studio from Abu Dhabi building the next generation of social and utility apps.",
+    title: "XDLabs Future — We challenge ordinary.",
+    description: "A product studio from Dubai building the next generation of social and utility apps.",
     url: "https://itsjustxdlabs.com",
-    siteName: "XD Labs",
+    siteName: "XDLabs Future",
   },
 };
 
